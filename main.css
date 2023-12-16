@@ -1,0 +1,47 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 75vh;
+      justify-content: space-between;
+      align-items: center;
+}
+
+    #left-container {
+      width: 45%;
+      margin: 10px;
+      text-align: center;
+      background-color: green;
+    }
+
+    #right-container {
+      width: 45%;
+      margin: 10px;
+      text-align: center;
+      background-color: red;
+    }
+
+    #center-container {
+      width: 10%;
+      text-align: center;
+      margin: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    input, select {
+      width: 60%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    #quantity, #price, #stockName {
+      text-align: center;
+      width: 80%;
+      margin-top: 5px;
+    }
